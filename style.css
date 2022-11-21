@@ -350,6 +350,28 @@ p {
     }
 
 /* End Hero Section */
+#overview .overview{
+	flex-direction: column-reverse;
+	text-align: center;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 80px 20px;
+}
+#overview h1{
+	font-size: 4rem;
+    opacity: 0.9;
+    font-weight: bolder;
+    margin-bottom: 20px;
+
+}
+#overview p{
+	display: block;
+    width:fit-content;
+    text-align: center;
+    font-size: 1.5rem;
+	font-weight: 500;
+    position:relative;
+}
 
 /* About Section */
 #about .about {
@@ -358,6 +380,7 @@ p {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 100px 20px;
+	font-weight: 500;
 }
 #about .col-left {
 	width: 250px;
@@ -375,8 +398,15 @@ p {
 }
 #about .col-right p {
 	margin-bottom: 20px;
-
+	font-weight: 500;
 }
+#about .col-right p ul {
+    font-size: 10px;
+    opacity: 0.9;
+    padding-right: 90%;
+    margin-bottom: 20px;
+}
+
 #about .col-right .cta {
 	color: black;
 	margin-bottom: 50px;
